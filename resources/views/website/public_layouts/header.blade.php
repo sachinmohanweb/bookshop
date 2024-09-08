@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="shortcut icon" href="{{ asset('website/img/favicon.png')}}" type="image/x-icon">
-        <title>Once Upon A TIme - @yield('title')</title>
+        <title>Once Upon A Time - @yield('title')</title>
         <!-- Bootstrap CSS -->
         <link href="{{ asset('website/css/bootstrap.min.css')}}" rel="stylesheet">
         <link rel="stylesheet" href="{{ asset('website/css/style.css')}}">
@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-        <link href="{{ asset('website/img/favicon.png')}}" rel="icon">
+        <link href="{{ asset('website/img/logo.png')}}" rel="icon">
     </head>
     <body>
         <header>

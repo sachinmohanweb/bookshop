@@ -38,18 +38,7 @@
 			                    <li><a href="{{route('chart-widget')}}" class="{{ Route::currentRouteName()=='chart-widget' ? 'active' : '' }}">{{ trans('lang.Chart') }}</a></li>
 		                  	</ul>
 					</li>
-					<li class="sidebar-list">
-						<a class="sidebar-link sidebar-title" href="#"><i data-feather="layout"></i><span class="lan-7">Page layout</span></a>
-						<ul class="sidebar-submenu" >
-							<li class=" customizer-color"><a href="{{route('index')}}">Boxed</a></li>
-							<li class=" customizer-color"><a href="{{route('index')}}">RTL</a></li>
-							<li class=" customizer-color dark"><a href="{{route('index')}}">Dark Layout</a></li>
-							<li class=" customizer-color"><a href="{{route('index')}}">Hide Nav Scroll</a></li>
-							<li class=" customizer-color"><a href="{{route('index')}}">Footer Light</a></li>
-							<li class=" customizer-color"><a href="{{route('index')}}">Footer Dark</a></li>
-							<li class=" customizer-color"><a href="{{route('index')}}">Footer Fixed</a></li>
-						</ul>
-					</li>
+
 					<li class="sidebar-main-title">
 						<div>
 							<h6 class="lan-8">{{ trans('lang.Applications') }}</h6>

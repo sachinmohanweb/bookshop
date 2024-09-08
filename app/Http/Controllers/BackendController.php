@@ -12,4 +12,9 @@ class BackendController extends Controller
     {
         return view('admin_panel.index',[]);
     }
+
+    public function dashboard() : View
+    {
+        return view('admin_panel.dashboard',[]);
+    }
 }

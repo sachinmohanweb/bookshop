@@ -15,3 +15,4 @@ Route::get('purchaseDetails', [HomeController::class, 'purchase_details'])->name
 Route::get('contact', [HomeController::class, 'contact'])->name('contact');
 
 Route::get('/admin', [BackendController::class, 'admin_login'])->name('admin.login');
+Route::get('/dashboard', [BackendController::class, 'dashboard'])->name('admin.dashboard');

@@ -30,8 +30,6 @@
 <!-- Plugins JS Ends-->
 <!-- Theme js-->
 <script src="{{asset('assets/js/script.js')}}"></script>
-<script src="{{asset('assets/js/theme-customizer/customizer.js')}}"></script>
-
 
 {{-- @if(Route::current()->getName() == 'index') 
 	<script src="{{asset('assets/js/layout-change.js')}}"></script>
