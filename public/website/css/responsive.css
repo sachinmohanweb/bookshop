@@ -1,0 +1,325 @@
+@media (max-width: 1400px) {
+   .navigation ul li {
+    padding: 0 25px;
+    }
+    .arrival .block{
+      min-height: 260px;
+    }
+    .arrival .love{
+      top:40px;
+    }
+     .once-book .nav li button{
+    margin-right: 25px;
+  }
+  }
+
+  @media (max-width: 1200px) {
+       .arrival .love {
+        top: unset;
+        bottom: 75px;
+    }
+    .navigation ul{
+      margin-right:25px;
+    }
+    .book-detail .content h2{
+      font-size: 35px;
+      line-height: 45px;
+    }
+    .book-detail .author {
+    font-size: 18px;
+  }
+  .buy-now button{
+    padding: 10px 25px;
+  }
+  .once-book .nav li button{
+    padding: 12px 25px;
+  }
+  .cart-sec{
+    padding: 15px;
+  }
+  .shoping-cart-sec .cart-sec h3{
+    font-size: 25px;
+  }
+}
+  
+
+   @media (max-width: 991px) {
+      .all-books .block{
+        margin: 5px !important;
+        height: 250px !important;
+      }
+      .all-books .block h2{
+        font-size: 30px;
+      }
+       .hamburger-menu{
+    display: block;
+   }
+   .hamburger-menu.open span{
+    background: #fff;
+   }
+   .navigation ul {
+         position: fixed;
+         top: 0;
+         right: -500px;
+         width: 275px;
+         bottom: 0;
+         z-index: 9999;
+         height: 50%;
+         background: #ad9e84;
+         flex-direction: column;
+         align-items: flex-start !important;
+         justify-content: flex-start !important;
+         padding-top: 100px;
+         transition: all 0.5s ease;
+         margin-right: 0 !important;
+    }
+     .navigation ul.show {
+         right: 0;
+    }
+     .navigation ul li{
+         margin-left: 25px;
+         margin-bottom: 15px;
+    }
+     .navigation ul li a{
+         color: #333;
+         font-size: 19px;
+    }
+    .header-sec .info-sec{
+          position: absolute;
+    top: 36px;
+    right: 90px;
+    }
+    .find h3{
+      text-align: center;
+      padding-bottom: 15px;
+    }
+    .f-menu{
+      justify-content: center !important;
+      align-items: center !important;
+      flex-direction: column !important;
+    }
+    .f-navigation li{
+      margin:0 15px !important;
+    }
+    .f-social{
+      margin-top: 25px;
+    }
+    .bottom-footer-info{
+      justify-content: center !important;
+      flex-direction: column !important;
+    }
+    .footer-bottom,.footer-bottom ul{
+      justify-content: center !important;
+      padding-top: 0;
+    }
+    .f-logo{
+      padding: 15px 0;
+    }
+    .find input{
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    .find button{
+      max-width: 150px;
+      margin: auto;
+    }
+    footer .request{
+      text-align: center;
+    }
+   
+    .find input{
+      width: 90%;
+    }
+    .book-detail .content{
+      padding: 35px 0;
+    }
+    .book-heading h2{
+      font-size: 25px;
+    }
+    .filter{
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 999;
+            background: #FFDB94; 
+    color: #333;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 25px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.sort{
+  position: fixed;
+  z-index:9;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+.sort.show{
+  display: block;
+  top:0;
+}
+.once-nav{
+  flex-direction: column !important;
+}
+.once-book .nav li button{
+  margin-right: 15px;
+  padding: 7px 25px;
+}
+.once-nav ul{
+  width: 100%;
+  margin-bottom: 15px;
+  justify-content: center !important;
+}
+.once-nav .once-sort{
+  margin: auto;
+}
+.cart-sec{
+  padding: 15px 0;
+}
+.cart-sec .block img{
+  max-width: 100%;
+}
+.cart-sec .content{
+  margin-left: 15px;
+}
+.contact-form .block{
+  margin-left: 0 !important;
+}
+.purchase-details-info:after{
+  display: none !important;
+}
+.purchase-detail{
+  padding-right: 0;
+}
+.shop-overview{
+   justify-content: flex-start !important;
+}
+.cart-sec .content{
+  padding: 10px 0;
+  margin: 0;
+}
+   }
+
+    @media (max-width: 767px) {
+      .cart-sec .block img{
+        max-width: 250px;
+        margin: auto;
+      }
+       .search-container{
+        margin-right: 0 !important;
+        width: 100% !important;
+       }
+       .author-month .month .content p{
+        padding-right: 0;
+       }
+       #sync1{
+        height: 475px;
+       }
+    }
+
+
+    @media (max-width: 600px) {
+     .logo img{
+      max-width: 65px;
+     }
+     .header-sec .info-sec{
+      top:21px;
+     }
+     .hamburger-menu{
+      top:25px;
+     }
+     header{
+      padding-bottom: 10px;
+     }
+     .faq .accordion-header button{
+      padding: 15px;
+     }
+     .accordion-button::after{
+      right: 5px;
+     }
+     .faq .accordion-body{
+      padding: 10px;
+     }
+     .find{
+      padding: 15px 0;
+     }
+     .find input{
+      width: 100%;
+     }
+     .footer-bottom ul{
+      flex-direction: column !important;
+      align-items: center !important;
+     }
+     .footer-bottom ul li{
+      margin: auto;
+      text-align: center;
+      margin-bottom: 15px;
+     }
+     .top-author-image{
+      margin: auto;
+     }
+     .top-authors .block{
+      text-align: center;
+     }
+     .book-heading h2{
+      font-size: 25px;
+     }
+     .book-heading a{
+      font-size: 14px;
+     }
+     .arrival .block{
+      min-height: 225px;
+     }
+     /*.genre-list.owl-theme .owl-nav .owl-prev{
+      background-size: 75% !important;
+     }
+     .genre-list.owl-theme .owl-nav .owl-next{
+       background-size: 75% !important;
+     }*/
+     .genre-list .owl-nav{
+      justify-content: flex-start !important;
+      left: 50% !important;
+      bottom: -75px;
+      left: 50%;
+      transform: translateX(-50%);
+      right: unset;
+     }
+     .genre{
+      padding-bottom: 50px;
+     }
+         .book-detail .author {
+        font-size: 16px;
+    }
+    .book-detail .rating{
+      font-size: 13px;
+    }
+    .book-detail .rating span{
+      font-size: 14px;
+    }
+    .book-detail .content h2{
+      font-size: 30px;
+    }
+    .book-detail .content .adv span{
+      font-size: 17px;
+    }
+    .once-nav ul{
+   flex-direction: column !important;
+   align-items: center;
+}
+.once-nav ul li{
+  margin-bottom: 15px;
+}
+.book-list-banner{
+  padding: 15px 0 25px 0;
+}
+.shoping-cart-sec .overview{
+  margin: 15px 0;
+}
+    }
