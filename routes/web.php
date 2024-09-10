@@ -21,5 +21,9 @@ Route::middleware('auth:admin')->group(function(){
 
     Route::get('logout', [BackendController::class, 'admin_logout'])->name('admin.logout');
     Route::get('dashboard', [BackendController::class, 'dashboard'])->name('admin.dashboard');
+    Route::get('books', [BackendController::class, 'books'])->name('admin.books');
+    Route::get('authors', [BackendController::class, 'authors'])->name('admin.authors');
+    Route::get('genres', [BackendController::class, 'genres'])->name('admin.genres');
+    Route::get('banners', [BackendController::class, 'banners'])->name('admin.banners');
 
 });

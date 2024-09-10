@@ -51,7 +51,7 @@
 
         @include('admin_panel.dashboard_layouts.sidebar')
 
-          @yield('content')
+        @yield('content')
 
     </main>
 

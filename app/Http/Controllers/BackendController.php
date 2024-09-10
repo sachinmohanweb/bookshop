@@ -17,7 +17,6 @@ class BackendController extends Controller
         return view('admin_panel.index',[]);
     }
 
-
     public function admin_login(Request $request): RedirectResponse
     {
         try{
@@ -64,5 +63,25 @@ class BackendController extends Controller
         $request->session()->regenerateToken();
      
         return redirect()->route('admin.index')->with('success', 'You have been successfully logged out.');
+    }
+
+    public function books() : View
+    {
+        return view('admin_panel.book.index',[]);
+    }
+
+    public function authors() : View
+    {
+        return view('admin_panel.book.index',[]);
+    }
+
+    public function genres() : View
+    {
+        return view('admin_panel.book.index',[]);
+    }
+    
+    public function banner() : View
+    {
+        return view('admin_panel.banners.index',[]);
     }
 }
