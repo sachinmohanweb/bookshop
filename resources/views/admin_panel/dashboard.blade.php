@@ -1,5 +1,5 @@
 @extends('admin_panel.dashboard_layouts.master')
-@section('title', 'Admin')
+@section('title', 'Dashboard')
 
 @section('css')
 @endsection

@@ -1,5 +1,5 @@
 @extends('admin_panel.dashboard_layouts.master')
-@section('title', 'Admin')
+@section('title', 'Banners')
 
 @section('css')
 @endsection
@@ -8,7 +8,7 @@
 @endsection
 
 @section('content')
-		 <div class="content">
+		<!--  <div class="content">
         <div class="chat d-flex phoenix-offcanvas-container pt-1 mt-n1 mb-9">
           <div class="card p-3 p-xl-1 mt-xl-n1 chat-sidebar me-3 phoenix-offcanvas phoenix-offcanvas-start" id="chat-sidebar">
             <button class="btn d-none d-sm-block d-xl-none mb-2" data-bs-toggle="modal" data-bs-target="#chatSearchBoxModal"><span class="fa-solid fa-magnifying-glass text-body-tertiary text-opacity-85 fs-7"></span></button>
@@ -387,7 +387,7 @@
             </div>
           </div>
         </footer>
-      </div>
+      </div> -->
 
 @endsection
 

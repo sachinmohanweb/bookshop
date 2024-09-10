@@ -80,7 +80,7 @@ class BackendController extends Controller
         return view('admin_panel.book.index',[]);
     }
     
-    public function banner() : View
+    public function banners() : View
     {
         return view('admin_panel.banners.index',[]);
     }
