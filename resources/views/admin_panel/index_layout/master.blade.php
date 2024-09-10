@@ -45,7 +45,8 @@
 <body>
     @yield('content')  
 </body>
-
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js" integrity="sha256-u0L8aA6Ev3bY2HI4y0CAyr9H8FRWgX4hZ9+K7C2nzdc=" crossorigin="anonymous"></script>
 <script src="../../../vendors/popper/popper.min.js"></script>
 <script src="../../../vendors/bootstrap/bootstrap.min.js"></script>
 <script src="../../../vendors/anchorjs/anchor.min.js"></script>
@@ -56,6 +57,14 @@
 <script src="../../../vendors/feather-icons/feather.min.js"></script>
 <script src="../../../vendors/dayjs/dayjs.min.js"></script>
 <script src="../../../assets/js/phoenix.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        setTimeout(function() {
+            $('#flash-message').fadeOut('slow');
+        }, 2000);
+    });
+
+</script>
 
 </html>
 

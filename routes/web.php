@@ -14,5 +14,12 @@ Route::get('cart', [HomeController::class, 'cart'])->name('cart');
 Route::get('purchaseDetails', [HomeController::class, 'purchase_details'])->name('purchase.details');
 Route::get('contact', [HomeController::class, 'contact'])->name('contact');
 
-Route::get('/admin', [BackendController::class, 'admin_login'])->name('admin.login');
-Route::get('/dashboard', [BackendController::class, 'dashboard'])->name('admin.dashboard');
+Route::get('admin', [BackendController::class, 'admin_index'])->name('admin.index');
+Route::post('login', [BackendController::class, 'admin_login'])->name('admin.login');
+
+Route::middleware('auth:admin')->group(function(){
+
+    Route::get('logout', [BackendController::class, 'admin_logout'])->name('admin.logout');
+    Route::get('dashboard', [BackendController::class, 'dashboard'])->name('admin.dashboard');
+
+});
