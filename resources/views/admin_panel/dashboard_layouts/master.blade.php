@@ -10,22 +10,22 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('website/img/logo.png')}}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('website/img/logo.png')}}">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('website/img/logo.png')}}">
-    <link rel="manifest" href="assets/img/favicons/manifest.json">
-    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
+    <link rel="manifest" href="{{ asset('assets/img/favicons/manifest.json')}}">
+    <meta name="msapplication-TileImage" content="{{ asset('assets/img/favicons/mstile-150x150.png')}}">
     <meta name="theme-color" content="#ffffff">
-    <script src="vendors/simplebar/simplebar.min.js"></script>
-    <script src="assets/js/config.js"></script>
+    <script src="{{ asset('vendors/simplebar/simplebar.min.js')}}"></script>
+    <script src="{{ asset('assets/js/config.js')}}"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&amp;display=swap" rel="stylesheet">
-    <link href="vendors/simplebar/simplebar.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../../../unicons.iconscout.com/release/v4.0.8/css/line.css">
-    <link href="assets/css/theme-rtl.min.css" type="text/css" rel="stylesheet" id="style-rtl">
-    <link href="assets/css/theme.min.css" type="text/css" rel="stylesheet" id="style-default">
-    <link href="assets/css/user-rtl.min.css" type="text/css" rel="stylesheet" id="user-style-rtl">
-    <link href="assets/css/user.min.css" type="text/css" rel="stylesheet" id="user-style-default">
+    <link href="{{ asset('vendors/simplebar/simplebar.min.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('unicons.iconscout.com/release/v4.0.8/css/line.css')}}">
+    <link href="{{ asset('assets/css/theme-rtl.min.css')}}" type="text/css" rel="stylesheet" id="style-rtl">
+    <link href="{{ asset('assets/css/theme.min.css')}}" type="text/css" rel="stylesheet" id="style-default">
+    <link href="{{ asset('assets/css/user-rtl.min.css')}}" type="text/css" rel="stylesheet" id="user-style-rtl">
+    <link href="{{ asset('assets/css/user.min.css')}}" type="text/css" rel="stylesheet" id="user-style-default">
 
-    <link rel="stylesheet" href="css/style_new.css">
+    <!-- <link rel="stylesheet" href="{{ asset('css/style_new.css')}}"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/2.1.3/css/dataTables.bootstrap5.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.css">
@@ -47,9 +47,9 @@
             userLinkRTL.setAttribute('disabled', true);
         }
     </script>
-    <link href="vendors/leaflet/leaflet.css" rel="stylesheet">
-    <link href="vendors/leaflet.markercluster/MarkerCluster.css" rel="stylesheet">
-    <link href="vendors/leaflet.markercluster/MarkerCluster.Default.css" rel="stylesheet">
+    <link href="{{ asset('vendors/leaflet/leaflet.css')}}" rel="stylesheet">
+    <link href="{{ asset('vendors/leaflet.markercluster/MarkerCluster.css')}}" rel="stylesheet">
+    <link href="{{ asset('vendors/leaflet.markercluster/MarkerCluster.Default.css')}}" rel="stylesheet">
 
     @yield('style')
 </head>

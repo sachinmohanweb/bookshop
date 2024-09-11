@@ -10,20 +10,20 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('website/img/logo.png')}}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('website/img/logo.png')}}">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('website/img/logo.png')}}">
-    <link rel="manifest" href="../../../assets/img/favicons/manifest.json">
-    <meta name="msapplication-TileImage" content="../../../assets/img/favicons/mstile-150x150.png">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
     <meta name="theme-color" content="#ffffff">
-    <script src="../../../vendors/simplebar/simplebar.min.js"></script>
-    <script src="../../../assets/js/config.js"></script>
+    <script src="{{ asset('vendors/simplebar/simplebar.min.js')}}"></script>
+    <script src="{{ asset('assets/js/config.js')}}"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&amp;display=swap" rel="stylesheet">
-    <link href="../../../vendors/simplebar/simplebar.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../../../../../../unicons.iconscout.com/release/v4.0.8/css/line.css">
-    <link href="../../../assets/css/theme-rtl.min.css" type="text/css" rel="stylesheet" id="style-rtl">
-    <link href="../../../assets/css/theme.min.css" type="text/css" rel="stylesheet" id="style-default">
-    <link href="../../../assets/css/user-rtl.min.css" type="text/css" rel="stylesheet" id="user-style-rtl">
-    <link href="../../../assets/css/user.min.css" type="text/css" rel="stylesheet" id="user-style-default">
+    <link href="{{ asset('vendors/simplebar/simplebar.min.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('unicons.iconscout.com/release/v4.0.8/css/line.css')}}">
+    <link href="{{ asset('assets/css/theme-rtl.min.css')}}" type="text/css" rel="stylesheet" id="style-rtl">
+    <link href="{{ asset('assets/css/theme.min.css')}}" type="text/css" rel="stylesheet" id="style-default">
+    <link href="{{ asset('assets/css/user-rtl.min.css')}}" type="text/css" rel="stylesheet" id="user-style-rtl">
+    <link href="{{ asset('assets/css/user.min.css')}}" type="text/css" rel="stylesheet" id="user-style-default">
     <script>
         var phoenixIsRTL = window.config.config.phoenixIsRTL;
         if (phoenixIsRTL) {
@@ -47,16 +47,16 @@
 </body>
 <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js" integrity="sha256-u0L8aA6Ev3bY2HI4y0CAyr9H8FRWgX4hZ9+K7C2nzdc=" crossorigin="anonymous"></script>
-<script src="../../../vendors/popper/popper.min.js"></script>
-<script src="../../../vendors/bootstrap/bootstrap.min.js"></script>
-<script src="../../../vendors/anchorjs/anchor.min.js"></script>
-<script src="../../../vendors/is/is.min.js"></script>
-<script src="../../../vendors/fontawesome/all.min.js"></script>
-<script src="../../../vendors/lodash/lodash.min.js"></script>
-<script src="../../../vendors/list.js/list.min.js"></script>
-<script src="../../../vendors/feather-icons/feather.min.js"></script>
-<script src="../../../vendors/dayjs/dayjs.min.js"></script>
-<script src="../../../assets/js/phoenix.js"></script>
+<script src="{{ asset('vendors/popper/popper.min.js')}}"></script>
+<script src="{{ asset('vendors/bootstrap/bootstrap.min.js')}}"></script>
+<script src="{{ asset('vendors/anchorjs/anchor.min.js')}}"></script>
+<script src="{{ asset('vendors/is/is.min.js')}}"></script>
+<script src="{{ asset('vendors/fontawesome/all.min.js')}}"></script>
+<script src="{{ asset('vendors/lodash/lodash.min.js')}}"></script>
+<script src="{{ asset('vendors/list.js/list.min.js')}}"></script>
+<script src="{{ asset('vendors/feather-icons/feather.min.js')}}"></script>
+<script src="{{ asset('vendors/dayjs/dayjs.min.js')}}"></script>
+<script src="{{ asset('assets/js/phoenix.js')}}"></script>
 <script type="text/javascript">
     $(document).ready(function() {
         setTimeout(function() {
@@ -67,7 +67,3 @@
 </script>
 
 </html>
-
-
-
-
